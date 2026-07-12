@@ -300,14 +300,6 @@ export default function RutaCatrachaLanding() {
         <div className="absolute inset-0 bg-[#1a0e05]/80" />
         <div className="relative z-10 max-w-4xl mx-auto px-6 grid md:grid-cols-3 gap-4 items-center">
           <div className="text-center text-8xl">🧭</div>
-          <div className="md:col-span-1 hidden md:flex justify-end">
-            <div className="bg-amber-900/40 border border-amber-700 rounded-2xl p-6 text-right max-w-xs">
-              <p className="text-amber-200 italic text-lg leading-relaxed">
-                "Todo eso, escondido en<br />50 sopas de letras.<br />
-                <strong>Encuéntralo.</strong>"
-              </p>
-            </div>
-          </div>
           <div>
             <h2 className="text-amber-400 font-bold text-2xl uppercase tracking-wider mb-4">
               Ruta Secreta Catracha
@@ -319,6 +311,14 @@ export default function RutaCatrachaLanding() {
             <p className="text-amber-300 font-semibold italic">
               ¿Estás listo para descubrirlo?
             </p>
+          </div>
+          <div className="md:col-span-1 hidden md:flex justify-end">
+            <div className="bg-amber-900/40 border border-amber-700 rounded-2xl p-6 text-right max-w-xs">
+              <p className="text-amber-200 italic text-lg leading-relaxed">
+                "Todo eso, escondido en<br />50 sopas de letras.<br />
+                <strong>Encuéntralo.</strong>"
+              </p>
+            </div>
           </div>
         </div>
       </section>
