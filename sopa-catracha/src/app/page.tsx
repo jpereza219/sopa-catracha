@@ -298,8 +298,8 @@ export default function RutaCatrachaLanding() {
         }}
       >
         <div className="absolute inset-0 bg-[#1a0e05]/80" />
-        <div className="relative z-10 max-w-4xl mx-auto px-6 grid md:grid-cols-2 gap-4 items-center">
-          <div className="text-center text-6xl">🧭</div>
+        <div className="relative z-10 max-w-4xl mx-auto px-6 grid md:grid-cols-3 gap-4 items-center">
+          <div className="text-center text-8xl">🧭</div>
           <div>
             <h2 className="text-amber-400 font-bold text-2xl uppercase tracking-wider mb-4">
               Ruta Secreta Catracha
