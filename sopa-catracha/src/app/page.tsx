@@ -2,6 +2,7 @@
 import { useState } from "react";
 import React from 'react';
 import { FaFacebook, FaInstagram, FaYoutube } from 'react-icons/fa';
+import { polyfillCountryFlagEmojis } from "country-flag-emoji-polyfill";
 
 // ══════════════════════════════════════════════
 // CONFIGURA AQUÍ TUS DATOS — solo edita esta sección
@@ -27,6 +28,7 @@ const CONFIG = {
   interiorImg4: "/interior-4.jpg",
 };
 // ══════════════════════════════════════════════
+polyfillCountryFlagEmojis();
 
 export default function RutaCatrachaLanding() {
   const [email, setEmail] = useState("");
@@ -391,7 +393,7 @@ export default function RutaCatrachaLanding() {
 
           {/* Sello */}
           <div className="flex flex-col items-center justify-center text-center">
-            <div className="text-3xl mb-2">🇭🇳</div>
+            <div className="text-3xl mb-2" style={{ fontFamily: '"Twemoji Country Flags", sans-serif' }}>🇭🇳</div>
             <p className="text-sm font-semibold text-white">HECHO CON ORGULLO EN HONDURAS</p>
           </div>
         </div>
