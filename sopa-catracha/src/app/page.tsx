@@ -19,6 +19,7 @@ const CONFIG = {
   authorPhoto:    "/juan-jose.jpg",        // tu foto
   logoSopa:       "/logo-sopa.jpg",        // logo de Sopa Catracha
   BackVol2:       "/BackVol2.png",        // cover  volumen 2
+  rutaSecreta:    "/ruta-secreta-bg.jpg",        // fondo de la ruta secreta
   // Interior del libro — 4 imágenes de muestra
   interiorImg1: "/interior-1.jpg",
   interiorImg2: "/interior-2.jpg",
@@ -63,7 +64,7 @@ export default function RutaCatrachaLanding() {
             />
           </div>
           <div>
-            <div className="font-bold text-amber-400 text-sm leading-tight">CATRACHA</div>
+            <div className="font-bold text-amber-400 text-sm leading-tight">SOPA CATRACHA</div>
             <div className="text-[10px] text-gray-300 leading-tight">HONDURAS EN PALABRAS</div>
           </div>
         </div>
@@ -290,7 +291,7 @@ export default function RutaCatrachaLanding() {
         id="ruta-secreta"
         className="py-20 bg-[#1a0e05] text-white relative overflow-hidden"
         style={{
-          backgroundImage: "url('/ruta-secreta-bg.jpg')",
+          backgroundImage: `url(${CONFIG.rutaSecreta})`,
           backgroundSize: "cover",
           backgroundPosition: "center",
           backgroundBlendMode: "multiply",
