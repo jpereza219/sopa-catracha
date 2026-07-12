@@ -289,7 +289,7 @@ export default function RutaCatrachaLanding() {
       {/* ── RUTA SECRETA ───────────────────────── */}
       <section
         id="ruta-secreta"
-        className="py-20 bg-[#1a0e05] text-white relative overflow-hidden"
+        className="py-20 text-white relative overflow-hidden"
         style={{
           backgroundImage: `url(${CONFIG.rutaSecreta})`,
           backgroundSize: "cover",
